@@ -1,0 +1,40 @@
+# CODEOWNERS file for order-adapter-967
+# Global owners - will be requested for all PRs
+* @Armor-test/team-logging @Armor-test/squad-ml @Armor-test/unit-cloud
+
+# Directory ownership
+/styles/ @Armor-test/squad-ux @Armor-test/squad-apps @Armor-test/dept-security
+/helpers/ @Armor-test/squad-ux @Armor-test/dept-logging @Armor-test/squad-qa
+/tools/ @Armor-test/squad-reporting @Armor-test/squad-mobile @Armor-test/unit-governance
+/views/ @Armor-test/team-research @Armor-test/grp-api @Armor-test/dept-identity
+/security/ @Armor-test/dept-test @Armor-test/squad-tooling @Armor-test/squad-api
+/controllers/ @Armor-test/squad-ml @Armor-test/squad-qa @Armor-test/team-reporting
+/middleware/ @Armor-test/team-reporting @Armor-test/dept-api
+/deploy/ @Armor-test/dept-billing @Armor-test/grp-api @Armor-test/unit-design
+/api/ @Armor-test/team-security @Armor-test/squad-search @Armor-test/dept-ui
+/web/ @Armor-test/dept-billing @Armor-test/grp-api
+/internal/ @Armor-test/dept-data @Armor-test/dept-billing @Armor-test/squad-ux
+/models/ @Armor-test/dept-identity @Armor-test/squad-cache @Armor-test/team-core
+/scripts/ @Armor-test/unit-governance @Armor-test/dept-data
+
+# File type ownership
+*.go @Armor-test/team-logging @Armor-test/dept-reporting @Armor-test/dept-data
+*.html @Armor-test/team-governance @Armor-test/grp-storage
+*.xml @Armor-test/squad-search @Armor-test/squad-ux
+*.java @Armor-test/dept-reporting @Armor-test/grp-api @Armor-test/team-security
+*.py @Armor-test/dept-reliability @Armor-test/grp-reporting @Armor-test/dept-security
+*.cs @Armor-test/squad-cache @Armor-test/team-notifications @Armor-test/squad-reporting
+*.scss @Armor-test/dept-identity @Armor-test/unit-governance
+*.sql @Armor-test/squad-frontend @Armor-test/squad-payments @Armor-test/squad-apps
+*.rb @Armor-test/grp-payments @Armor-test/team-security @Armor-test/grp-integration
+*.lock @Armor-test/squad-performance @Armor-test/dept-automation @Armor-test/team-notifications
+*.config @Armor-test/team-frontend @Armor-test/team-research
+*.yml @Armor-test/team-core @Armor-test/squad-reporting @Armor-test/team-research
+*.jsx @Armor-test/dept-security @Armor-test/unit-test @Armor-test/dept-test
+*.php @Armor-test/grp-ui @Armor-test/squad-apps
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
